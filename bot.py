@@ -1,4 +1,4 @@
-import os
+ import os
 import google.generativeai as genai
 from telegram import Update
 from telegram.ext import ApplicationBuilder, MessageHandler, filters, ContextTypes
@@ -10,7 +10,7 @@ GEMINI_API_KEY = os.environ.get(“GEMINI_API_KEY”, “AIzaSyCGdNM8tkOve3J1hlq
 
 # Системный промпт — настрой характер бота здесь
 
-SYSTEM_PROMPT = “Ты полезный помощник. Отвечай кратко и по делу на русском языке.”
+SYSTEM_PROMPT = “Ty polezny pomoshnik. Otvechay kratko i po delu na russkom yazyke.”
 
 # Инициализация Gemini
 
